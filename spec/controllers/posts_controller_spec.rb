@@ -26,6 +26,7 @@ RSpec.describe PostsController do
         title: "Fifteen Ways to Transcend Corporeal Form",
         category: "Fiction"
       )
+      # binding.pry
     end
 
     it "updates successfully" do
@@ -76,4 +77,3 @@ RSpec.describe PostsController do
     end
   end
 end
-
