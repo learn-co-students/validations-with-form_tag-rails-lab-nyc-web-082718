@@ -53,4 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  resources :authors
+  resources :posts
+  # get '/posts/:id', to: 'posts#show', as: 'article'
+
 end
